@@ -38,7 +38,7 @@ function App() {
           element={user ? <Navigate to="/home" /> : <Login_Logout />}
         />
 
-        <Route path="*" element={<Navigate to="login_logout" />} />
+        <Route path="*" element={<Navigate to="home" />} />
       </Routes>
     </Fragment>
   );
